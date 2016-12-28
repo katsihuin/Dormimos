@@ -6,25 +6,21 @@
 
 - weekday
 - vacation
-- porcentajeSquad
 
 ##Ingreso de Datos
-
-- Pedir la cantidad de puntos por squad
-- Pedir la cantidad puntos maximo disponibles
-
-##Proceso
 
  - Obtener valor weekday
  - Obtener valor vacation
 
+##Proceso
+
  - Si vacation es verdadero
-        - Mostrar 1 //si Dormimos
+        * Mostrar 1 // Entonces si Dormimos
  - Sino 
-        Si weekday es verdadero
-         - Mostrar 1 //No dormimos
-       - Si no 
-          - Mostrar 2 //Dormimos
+        -Si weekday es verdadero
+         * Mostrar 0 //No Dormimos
+        -Si no 
+          * Mostrar 0 //Dormimos
           - Fin si
  - Fin si
 
