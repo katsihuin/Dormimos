@@ -19,14 +19,14 @@ function calcular ()
     if (isVacation)
     {
         //dormir
-        salida.innerHTML = "1";
+        salida.innerHTML = "Si puedes dormir";
 
     }else{
          if (isWeekday)
          {
-            salida.innerHTML = "0";
+            salida.innerHTML = "No puedes dormir";
          }else {
-            salida.innerHTML = "1";
+            salida.innerHTML = "Si puedes dormir";
          }   
         }
 }
